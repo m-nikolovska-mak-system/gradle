@@ -1,6 +1,6 @@
 name: First GitHub Action
 
-on: [push]
+on:
 
 jobs:
   say-hello:
