@@ -10,6 +10,9 @@ public class Donor {
     private LocalDate dateOfBirth;
     private String contactNumber;
 
+   // private BloodType bloodType;
+
+
     public Donor(int id, String name, String bloodType, LocalDate dateOfBirth, String contactNumber) {
         this.id = id;
         this.name = name;
