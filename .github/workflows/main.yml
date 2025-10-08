@@ -1,6 +1,10 @@
 name: First GitHub Action
 
 on:
+  pull_request:
+    branches:
+      - service-layer
+     
 
 jobs:
   say-hello:
