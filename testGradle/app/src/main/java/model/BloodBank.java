@@ -5,6 +5,7 @@ import java.util.List;
 
 public class BloodBank {
     private String name;
+    private String surname;
     private String location;
     private List<Donation> donations;
 
