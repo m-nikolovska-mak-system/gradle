@@ -17,6 +17,12 @@ public class Donor {
         this.dateOfBirth = dateOfBirth;
         this.contactNumber = contactNumber;
     }
+    
+    public Donor(String name, String bloodType) {
+        this.name = name;
+        this.bloodType = bloodType;
+       
+    }
 
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
