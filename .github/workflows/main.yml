@@ -1,7 +1,9 @@
 name: First GitHub Action
 
-on: [push]
-
+on:
+  issues:
+    types:
+      - opened
 jobs:
   say-hello:
     runs-on: ubuntu-latest
