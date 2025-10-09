@@ -7,7 +7,6 @@ public class BloodBank {
     private String name;
     private String surname;
     private String location;
-    private String city;
     private List<Donation> donations;
 
     public BloodBank(String name, String location) {

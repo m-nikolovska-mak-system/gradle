@@ -1,11 +1,9 @@
 name: First GitHub Action
 
 on:
-  pull_request:
-    branches:
-      - service-layer
-     
-
+  issues:
+    types:
+      - opened
 jobs:
   say-hello:
     runs-on: ubuntu-latest
